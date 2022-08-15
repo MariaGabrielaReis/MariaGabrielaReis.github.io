@@ -34,6 +34,17 @@ declare module 'styled-components' {
       medium: string;
       semiBold: string;
     };
+    lineHeight: {
+      title: string;
+      subtitle: string;
+      topic: string;
+      text: string;
+
+      cardText: string;
+
+      footerName: string;
+      footerRights: string;
+    };
     spacings: {
       stack: {
         extraLarge: string;

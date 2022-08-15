@@ -31,6 +31,17 @@ export default {
     medium: '500',
     semiBold: '600',
   },
+  lineHeight: {
+    title: '64px',
+    subtitle: '64px',
+    topic: '32px',
+    text: '28px',
+
+    cardText: '24px',
+
+    footerName: '28px',
+    footerRights: '14px',
+  },
   spacings: {
     stack: {
       extraLarge: '90px',
