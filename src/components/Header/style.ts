@@ -19,7 +19,7 @@ export const Name = styled.h3`
 export const Link = styled.a`
   font-size: ${(props) => props.theme.fontSizes.headerLink};
 
-  padding-left: 1rem;
+  padding-left: 2.5rem;
 `;
 
 export const Navbar = styled.div`
