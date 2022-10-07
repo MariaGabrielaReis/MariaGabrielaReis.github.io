@@ -28,8 +28,7 @@
   },
   "devDependencies": {
     "@types/styled-components": "^5.1.26",
-    "gh-pages": "^4.0.0",
-    "nth-check": ">=2.0.1"
+    "gh-pages": "^4.0.0"
   },
   "eslintConfig": {
     "extends": [
