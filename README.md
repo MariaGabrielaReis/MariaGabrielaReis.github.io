@@ -1,30 +1,12 @@
-<h1 align="center"> :sparkles: Portfólio :sparkles: </h1>
+<h2 align="center"> :sparkles: Portfolio Pessoal :sparkles: </h2>
 
-### :bookmark_tabs: Sobre o projeto
-Este é um site pessoal que representa meu portfólio online, apresentando minhas informações, formação acadêmica e projetos que já desenvolvi.
- 
-> 💡 Para visualizar o site acesse [www.mariagabrielareis.com.br]() ou rode localmente seguindo as instruções abaixo (com o Git e o Node instalados e configurados):
-> ```bash
-> # Acesse a pasta do projeto
-> $ cd portfolio
->
-> # Execute-o
-> $ npm start
-> ```
-> O site inciará localmente na porta 3000.
-  
-#### :desktop_computer: Demonstração
-> Em breve..
+Site pessoal com o objetivo de ser um portfólio online, contendo minhas informações, formação acadêmica, experiências e projetos! 
 
-#### 🛠 Tecnologias utilizadas
-Confira a seguir o layout do projeto finalizado, construído em React com Typescript.
-<div>
-  <img src="https://img.shields.io/badge/Figma-7e35a0?style=for-the-badge&logo=Figma&logoColor=white" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=whit" />
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
-  <img src="https://img.shields.io/badge/React-00B1B3?style=for-the-badge&logo=react&logoColor=white" />
+> 💡 Projeto desenvolvido também para a disciplina de Experiência do Usuário na FATEC de São José dos Campos. <br>
+>  **Acesse em: [https://mariagabrielareis.github.io/](https://mariagabrielareis.github.io/)**
+
+<div align="center">
+  <img src="https://img.shields.io/badge/Figma-ff8c80?style=for-the-badge&logo=Figma&logoColor=white" />
+  <img src="https://img.shields.io/badge/React-00d1d1?style=for-the-badge&logo=react&logoColor=white" />
+  <img src="https://img.shields.io/badge/TypeScript-45b6c4?style=for-the-badge&logo=typescript&logoColor=white" />
 </div>
-
----
-
-[![image](https://img.shields.io/badge/✨%20Maria%20Gabriela%20Reis,%202022-LinkedIn-009973?style=flat-square)](https://www.linkedin.com/in/mariagabrielareis/)
