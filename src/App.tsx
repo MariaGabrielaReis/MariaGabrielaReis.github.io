@@ -12,8 +12,10 @@ export default function App() {
       <div className="App">
         <GlobalStyle />
         <Header />
-        <Greetings />
-        <Projects />
+        <div style={{ scrollBehavior: 'smooth' }}>
+          <Greetings />
+          <Projects />
+        </div>
       </div>
     </ThemeProvider>
   );

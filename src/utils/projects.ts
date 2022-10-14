@@ -1,13 +1,13 @@
 type Project = {
   title: string;
-  name?: string;
-  description: string;
+  name: string;
+  description?: string;
   link?: string;
 };
 
 export const projects: Project[] = [
   {
-    title: 'FATEC API (4º semestre)',
+    title: 'FATEC API (4º sem.)',
     name: 'Cloud Fox',
     description: 'Sistema para ver dados meteorológicos (com montagem de uma estação)',
     link: 'https://github.com/The-Bugger-Ducks/cloud-fox-documentation',
@@ -43,7 +43,7 @@ export const projects: Project[] = [
     link: 'https://github.com/MariaGabrielaReis/jstack',
   },
   {
-    title: 'FATEC API (3º semestre)',
+    title: 'FATEC API (3º sem.)',
     name: 'Help Duck',
     description: 'Sistema para Help Desk com 3 usuários: comum, suporte e administrador',
     link: 'https://github.com/The-Bugger-Ducks/help-duck-documentation',
@@ -69,7 +69,7 @@ export const projects: Project[] = [
   // 2021
   {
     title: '2021',
-    description: 'Projetos acadêmicos, pessoais e de eventos criados em 2021',
+    name: 'Projetos acadêmicos, pessoais e de eventos criados em 2021',
   },
   {
     title: 'World Beauty (TP I)',
@@ -78,7 +78,7 @@ export const projects: Project[] = [
     link: 'https://github.com/MariaGabrielaReis/TPI-test',
   },
   {
-    title: 'FATEC API (2º semestre)',
+    title: 'FATEC API (2º sem.e)',
     name: 'Polaris',
     description: 'Site para consumo de imagens de satélites em repositórios em nuvem',
     link: 'https://github.com/Equipe-Polaris-DSM-2021/docs',
@@ -120,7 +120,7 @@ export const projects: Project[] = [
     link: 'https://github.com/MariaGabrielaReis/ignite-classes',
   },
   {
-    title: 'FATEC API (1º semestre)',
+    title: 'FATEC API (1º sem.)',
     name: 'Análise de dados eleitorais',
     description: 'Sistema para Help Desk com 3 usuários: comum, suporte e administrador',
     link: 'https://github.com/Equipe-01-DSM-2021/projeto-integrador-2021-1',
@@ -144,31 +144,31 @@ export const projects: Project[] = [
     link: 'https://github.com/MariaGabrielaReis/Python-for-Zombies',
   },
   {
-    title: 'Portfólio pessoal (v.1)',
+    title: 'Portfólio pessoal',
     name: 'Portfólio pessoal',
     description: 'Trabalho feito para a disciplina de Design Digital na FATEC',
     link: 'https://github.com/MariaGabrielaReis/meu-portfolio',
   },
   {
-    title: 'Multistack (Treina Web)',
+    title: 'Multistack',
     name: 'E-Diaristas (Mobile)',
     description: 'App para achar o profissional de limpeza domiciliar mais perto de você',
     link: 'https://github.com/MariaGabrielaReis/multistack-ediaristas-mobile',
   },
   {
-    title: 'Multistack (Treina Web)',
+    title: 'Multistack',
     name: 'E-Diaristas (API)',
     description: 'API para o "Multistack" (Treina Web): E-Diaristas',
     link: 'https://github.com/MariaGabrielaReis/multistack-ediaristas-api',
   },
   {
-    title: 'Multistack (Treina Web)',
+    title: 'Multistack',
     name: 'E-Diaristas (Painel Administrativo)',
     description: 'Painel Administrativo para o "Multistack" (Treina Web): E-Diaristas',
     link: 'https://github.com/MariaGabrielaReis/multistack-ediaristas-painel-administrativo',
   },
   {
-    title: 'Multistack (Treina Web)',
+    title: 'Multistack',
     name: 'E-Diaristas (Site)',
     description: 'Site para o "Multistack" (Treina Web): E-Diaristas',
     link: 'https://github.com/MariaGabrielaReis/multistack-ediaristas-web',
@@ -198,7 +198,7 @@ export const projects: Project[] = [
     link: 'https://github.com/MariaGabrielaReis/nlw-05-support-chat',
   },
   {
-    title: 'MARATONA DISCOVER #02',
+    title: 'MARATONA DISCOVER 2',
     name: 'Jobs Calc',
     description: 'Calculadora para Freelancers',
     link: 'https://github.com/MariaGabrielaReis/maratona-discover-jobs-calc',
@@ -224,7 +224,7 @@ export const projects: Project[] = [
   // 2020
   {
     title: '2020',
-    description: 'Projetos acadêmicos, pessoais e de eventos criados em 2020',
+    name: 'Projetos acadêmicos, pessoais e de eventos criados em 2020',
   },
   {
     title: 'NEXT LEVEL WEEK #03',

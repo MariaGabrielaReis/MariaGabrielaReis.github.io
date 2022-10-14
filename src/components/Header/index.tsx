@@ -5,9 +5,9 @@ export default function Header() {
     <Container>
       <Name>Maria Gabriela Reis</Name>
       <Navbar>
-        <Link>Formação</Link>
-        <Link>Projetos</Link>
-        <Link>Contato</Link>
+        <Link href="#about">Formação</Link>
+        <Link href="#projects">Projetos</Link>
+        <Link href="#contacts">Contato</Link>
       </Navbar>
     </Container>
   );

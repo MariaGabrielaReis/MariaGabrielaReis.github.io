@@ -18,6 +18,9 @@ export const Name = styled.h3`
 
 export const Link = styled.a`
   font-size: ${({ theme }) => theme.fontSizes.headerLink};
+  color: ${({ theme }) => theme.colors.title};
+  font-weight: ${({ theme }) => theme.fontWeight.regular};
+  text-decoration-line: unset;
 
   padding-left: 2.5rem;
 `;

@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import stripes from '../../assets/stripes.png';
 
 export const Container = styled.div`
   margin-bottom: 88px;
@@ -28,25 +29,45 @@ export const Description = styled.p`
 `;
 
 export const ProjectList = styled.div`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow-x: scroll;
+  overflow-x: hidden;
+  background-image: url(${stripes});
+  background-repeat: no-repeat;
+  position: relative;
+  white-space: nowrap;
+  height: 382px;
+
+  @keyframes marquee {
+    0% {
+      transform: translate(0, 0);
+    }
+    100% {
+      transform: translate(-990%, 0);
+    }
+  }
 `;
 
-export const ProjectContainer = styled.div`
-  width: 19rem;
+export const List = styled.div`
+  display: flex;
+  align-items: center;
+  position: relative;
+  height: 100%;
+  animation: marquee 380s linear infinite;
+`;
+
+export const ProjectContainer = styled.div<{ isFirst: boolean }>`
   height: 22rem;
   padding: 2rem 1rem 0rem;
+  margin-left: ${({ isFirst }) => (isFirst ? '150px' : '0px')};
   margin-right: 2.5rem;
   border-radius: 8px;
   border: 2px solid ${({ theme }) => theme.colors.primary};
-  //overflow: hidden;
+  background-color: ${({ theme }) => theme.colors.secondary};
 `;
 
 export const ProjectTexts = styled.div`
   height: 260px;
-  width: 100%;
+  width: 272px;
+  white-space: normal;
 `;
 
 export const ProjectTitle = styled.p`
@@ -81,12 +102,15 @@ export const ProjectLink = styled.a`
   line-height: ${({ theme }) => theme.lineHeight.cardText};
   text-decoration-line: unset;
   text-align: center;
-  width: 19rem;
-  padding: 1.5rem 1rem 0rem;
+  padding: 1.5rem 3.2rem 0rem;
 
   border-top: 2px solid ${({ theme }) => theme.colors.primary};
 `;
 
-export const DecorationStripes = styled.img``;
-
-export const DecorationCircle = styled.img``;
+export const DecorationCircle = styled.img`
+  position: absolute;
+  z-index: 5;
+  top: 0;
+  right: 0;
+  overflow: hidden;
+`;
