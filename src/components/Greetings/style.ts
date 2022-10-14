@@ -10,6 +10,7 @@ export const Container = styled.div`
   align-items: center;
   justify-content: space-between;
   margin-top: 8rem;
+  margin-bottom: 88px;
   background-image: url(${decoration});
   background-repeat: no-repeat;
 `;
