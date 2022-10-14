@@ -1,9 +1,9 @@
 import styled from 'styled-components';
 import decoration from '../../assets/decoration.png';
 
-interface ButtonProps {
+type ButtonProps = {
   isFilled?: boolean;
-}
+};
 
 export const Container = styled.div`
   display: flex;
@@ -19,20 +19,20 @@ export const Content = styled.div`
 `;
 
 export const Title = styled.h1`
-  color: ${(props) => props.theme.colors.title};
-  font-size: ${(props) => props.theme.fontSizes.title};
-  font-weight: ${(props) => props.theme.fontWeight.medium};
-  line-height: ${(props) => props.theme.lineHeight.title};
+  color: ${({ theme }) => theme.colors.title};
+  font-size: ${({ theme }) => theme.fontSizes.title};
+  font-weight: ${({ theme }) => theme.fontWeight.medium};
+  line-height: ${({ theme }) => theme.lineHeight.title};
 
   max-width: 45rem;
   margin-left: 8rem;
 `;
 
 export const Description = styled.p`
-  color: ${(props) => props.theme.colors.text};
-  font-size: ${(props) => props.theme.fontSizes.text};
-  font-weight: ${(props) => props.theme.fontWeight.regular};
-  line-height: ${(props) => props.theme.lineHeight.text};
+  color: ${({ theme }) => theme.colors.text};
+  font-size: ${({ theme }) => theme.fontSizes.text};
+  font-weight: ${({ theme }) => theme.fontWeight.regular};
+  line-height: ${({ theme }) => theme.lineHeight.text};
 
   max-width: 30rem;
   margin-top: 2rem;
@@ -40,18 +40,18 @@ export const Description = styled.p`
 `;
 
 export const Button = styled.button<ButtonProps>`
-  color: ${(props) => (props.isFilled ? props.theme.colors.secondary : props.theme.colors.primary)};
-  background: ${(props) => (props.isFilled ? props.theme.colors.primary : props.theme.colors.secondary)};
-  font-size: ${(props) => props.theme.fontSizes.buttonText};
-  font-weight: ${(props) => props.theme.fontWeight.medium};
-  line-height: ${(props) => props.theme.lineHeight.text};
+  color: ${({ theme, isFilled }) => (isFilled ? theme.colors.secondary : theme.colors.primary)};
+  background: ${({ theme, isFilled }) => (isFilled ? theme.colors.primary : theme.colors.secondary)};
+  font-size: ${({ theme }) => theme.fontSizes.buttonText};
+  font-weight: ${({ theme }) => theme.fontWeight.medium};
+  line-height: ${({ theme }) => theme.lineHeight.text};
 
   width: 14rem;
   padding: 1rem 2rem;
   margin-right: 2rem;
   border-radius: 8px;
-  border: ${(props) => (props.isFilled ? '0px' : '2px')} solid
-    ${(props) => (props.isFilled ? props.theme.colors.secondary : props.theme.colors.primary)};
+  border: ${({ isFilled }) => (isFilled ? '0px' : '2px')} solid
+    ${({ theme, isFilled }) => (isFilled ? theme.colors.secondary : theme.colors.primary)};
 `;
 
 export const Buttons = styled.p`

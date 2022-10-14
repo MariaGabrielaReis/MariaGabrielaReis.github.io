@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  color: ${(props) => props.theme.colors.title};
+  color: ${({ theme }) => theme.colors.title};
 
   height: 72px;
   display: flex;
@@ -12,18 +12,18 @@ export const Container = styled.div`
 `;
 
 export const Name = styled.h3`
-  font-size: ${(props) => props.theme.fontSizes.topic};
-  font-weight: ${(props) => props.theme.fontWeight.regular};
+  font-size: ${({ theme }) => theme.fontSizes.topic};
+  font-weight: ${({ theme }) => theme.fontWeight.regular};
 `;
 
 export const Link = styled.a`
-  font-size: ${(props) => props.theme.fontSizes.headerLink};
+  font-size: ${({ theme }) => theme.fontSizes.headerLink};
 
   padding-left: 2.5rem;
 `;
 
 export const Navbar = styled.div`
-  font-size: ${(props) => props.theme.fontSizes.headerLink};
+  font-size: ${({ theme }) => theme.fontSizes.headerLink};
 
   display: flex;
   align-items: center;
