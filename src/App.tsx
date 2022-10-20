@@ -5,6 +5,7 @@ import GlobalStyle from './styles/global';
 import Header from './components/Header';
 import Greetings from './components/Greetings';
 import Projects from './components/Projects';
+import Contact from './components/Contact';
 
 export default function App() {
   return (
@@ -15,6 +16,7 @@ export default function App() {
         <div style={{ scrollBehavior: 'smooth' }}>
           <Greetings />
           <Projects />
+          <Contact />
         </div>
       </div>
     </ThemeProvider>
