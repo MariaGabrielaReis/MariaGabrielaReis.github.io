@@ -54,18 +54,6 @@ export const projects: Project[] = [
     description: 'Microsserviço para gerenciar loja de autopeças (disciplina de Desenvolvimento Web III)',
     link: 'https://github.com/MariaGabrielaReis/DWIII-autobots',
   },
-  {
-    title: 'Atlantis (TP II)',
-    name: 'Atlantis',
-    description: 'Sistema para gerenciar clientes de parques aquáticos (disciplina de Técnicas de Prog. II)',
-    link: 'https://github.com/MariaGabrielaReis/TPII-atlantis',
-  },
-  {
-    title: 'Jornada Dev Pleno',
-    name: 'Design Pattern: Factory Method',
-    description: 'Evento do Bruno Braga sobre "conceitos chave" do TypeScript',
-    link: 'https://github.com/MariaGabrielaReis/factory-method-design-pattern-example',
-  },
   // 2021
   {
     title: '2021',
@@ -102,18 +90,6 @@ export const projects: Project[] = [
     link: 'https://github.com/MariaGabrielaReis/nlw-07-heat-node',
   },
   {
-    title: 'IMERSÃO DEV #2',
-    name: 'Imersão Dev',
-    description: 'Evento da Alura: pequenos projetos práticos em JavaScript',
-    link: 'https://github.com/MariaGabrielaReis/imersao-dev-2',
-  },
-  {
-    title: 'Semana JS Expert #5',
-    name: 'Semana JavaScript Expert #5',
-    description: 'Erick Wendel aborda conceitos do JS e TDD para criar um clone do Google Drive',
-    link: 'https://github.com/MariaGabrielaReis/semana-javascript-expert-5',
-  },
-  {
     title: 'Ignite',
     name: 'Aulas do Ignite',
     description: 'Aplicações feitas no Ignite (curso da Rocketseat)',
@@ -126,12 +102,6 @@ export const projects: Project[] = [
     link: 'https://github.com/Equipe-01-DSM-2021/projeto-integrador-2021-1',
   },
   {
-    title: 'Ignite',
-    name: 'Oficina de testes com JS',
-    description: 'Iniciando com testes em JavaScript',
-    link: 'https://github.com/MariaGabrielaReis/oficina-testes-javascript',
-  },
-  {
     title: 'NEXT LEVEL WEEK #06',
     name: 'Gameplay',
     description: 'App para organizar suas jogatinas com os amigos! ',
@@ -142,12 +112,6 @@ export const projects: Project[] = [
     name: 'Python for Zombies',
     description: 'Exercícios de Python propostos pelo professor Fernando Masanori',
     link: 'https://github.com/MariaGabrielaReis/Python-for-Zombies',
-  },
-  {
-    title: 'Portfólio pessoal',
-    name: 'Portfólio pessoal',
-    description: 'Trabalho feito para a disciplina de Design Digital na FATEC',
-    link: 'https://github.com/MariaGabrielaReis/meu-portfolio',
   },
   {
     title: 'Multistack',
@@ -178,12 +142,6 @@ export const projects: Project[] = [
     name: 'Web Scraping',
     description: 'Evento do Samsung Ocean, com foco em Web Scraping com Python',
     link: 'https://github.com/MariaGabrielaReis/web-scraping-samsung-ocean',
-  },
-  {
-    title: 'IMERSÃO DADOS #03',
-    name: 'Imersão dados #03',
-    description: 'Evento da Alura, com foco na análise de dados com Python',
-    link: 'https://github.com/MariaGabrielaReis/imersao-dados-3',
   },
   {
     title: 'NEXT LEVEL WEEK #05',
@@ -248,15 +206,5 @@ export const projects: Project[] = [
     title: 'TCC',
     name: 'Lab Control',
     description: 'Sistema para reportagem de avarias em laboratórios de informática',
-  },
-  {
-    title: 'Aulas de POO',
-    name: 'Lanchonete',
-    description: 'Sistema C# para uma lanchonete',
-  },
-  {
-    title: 'Aulas de POO',
-    name: 'Livraria',
-    description: 'Sistema C# para uma livraria',
   },
 ];

@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import stripes from '../../assets/stripes.png';
 
-export const Container = styled.div`
+export const Container = styled.section`
   margin-bottom: 88px;
 `;
 
